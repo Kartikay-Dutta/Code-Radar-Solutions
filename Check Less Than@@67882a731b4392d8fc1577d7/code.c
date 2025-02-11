@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
-    
-    printf("Enter two numbers: ");
+    int x,y;
     scanf("%d %d", &x, &y);
-
-    if (x > y) {
-        printf("True\n");
-    } else {
-        printf("False\n");
+    if(x>y){
+        printf("True");
     }
-
+    else{
+        printf("False");
+    }
     return 0;
 }
