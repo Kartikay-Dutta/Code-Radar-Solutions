@@ -10,3 +10,4 @@ int main() {
     printf("Hobby: %s\n", hobby);
     return 0;
 }
+ 
